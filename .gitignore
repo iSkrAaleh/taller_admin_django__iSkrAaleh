@@ -1,0 +1,40 @@
+# ==========================================
+# Entornos Virtuales
+# ==========================================
+entorno/
+venv/
+env/
+
+# ==========================================
+# Archivos compilados de Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================================
+# Base de datos local
+# ==========================================
+db.sqlite3
+db.sqlite3-journal
+
+# ==========================================
+# Archivos de configuración locales y secretos
+# ==========================================
+.env
+.env.local
+.env.*.local
+
+# ==========================================
+# Archivos subidos por los usuarios
+# ==========================================
+media/
+/patrimonio/media/
+
+# =========================================
+# Archivos de editores de código y SO (VS Code, Mac, Linux)
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
