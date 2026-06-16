@@ -1,10 +1,9 @@
 from django.contrib import admin
 from .models import Museo, GuiaMuseo, Exhibicion
 
-#visualizacion paraver mejor los datos en forma de tabla
 @admin.register(Museo)
 class MuseoAdmin(admin.ModelAdmin):
-    list_display = ('nombre', 'ciudad', 'año_fundacion')
+    list_display = ('nombre', 'ciudad', 'año_fundacion', 'calcular_costo_exhibiciones', 'obtener_mejores_guias')
     search_fields = ('nombre', 'ciudad')
 
 @admin.register(GuiaMuseo)

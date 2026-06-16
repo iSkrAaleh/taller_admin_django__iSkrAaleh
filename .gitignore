@@ -38,3 +38,6 @@ media/
 .idea/
 .DS_Store
 Thumbs.db
+# Datos internos del contenedor de MariaDB
+patrimonio/mysql_data/
+mysql_data/
